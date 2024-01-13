@@ -1,0 +1,12 @@
+html {
+    background-color: rgb(209, 196, 196);
+    color: rgb(112, 53, 53);
+}
+
+h3 {
+    font-size: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    margin: 200px;
+}
