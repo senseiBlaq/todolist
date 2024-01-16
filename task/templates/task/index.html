@@ -5,6 +5,8 @@
     <ul>
         {% for task in tasklist %}
             <li> {{ task }} </li>
+        {% empty %} <!-- if the task is empty show below -->
+            <li>No tasks.</li>
         {% endfor %}
     </ul>
 
